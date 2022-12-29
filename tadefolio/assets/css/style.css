@@ -1,0 +1,461 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9rem;
+}
+nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo a{
+    text-decoration: none;
+    color: #06AED5;
+    margin-left: 10px;
+}
+#menu{
+    display: none;
+}
+nav .navbar ul{
+    display: flex;
+    /* width: 50%; */
+    justify-content: space-between;
+    list-style: none;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+}
+li a.active{
+    color: #06AED5;
+}
+header .about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 90px 50px 50px;
+}
+.about .info{
+    width: 50%;
+    /* border: 1px solid #06AED5; */
+    margin-left: 65px;
+}
+.info p.des{
+    width: 390px;
+    line-height: 40px;
+    font-size: 18px;
+
+}
+.info h1 small:nth-child(1){
+    font-size: 25px;
+}
+.info h1 small:nth-child(2){
+    font-weight: 400;
+    font-size: 25px;
+}
+.info h1 small.akin{
+    color: #06AED5;
+    font-size: 47px;
+}
+.info .job-title{
+    margin: 10px 0;
+    font-size: 35px;
+}
+.info .desc{
+    margin-top: 10px;
+}
+.info.image{
+    margin-top: 0;
+    width: 35%;
+    padding: 25px;
+}
+.info.image .img{
+    width: 100%;
+    border: 4px #06AED5 dashed;
+    border-radius: 50%;
+}
+.img img{
+    width: 100%;
+}
+.resume{
+    display: flex;
+    margin-top: 20px;
+}
+.btn{
+    width: 140px;
+    margin-top: 20px;
+}
+.btn button{
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid #06AED5;
+    background-color: #06AED5;
+    color: white;
+    cursor: pointer;
+}
+.btn.btn-resume button{
+    background-color: white;
+    border: none;
+    color: #808080;
+}
+.follow{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+.follow span{
+    margin: 0 15px;
+}
+.follow .social a{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    text-align: center;
+}
+a i{
+    color: #000;
+    font-size: 18px;
+    border: 1px solid rgba(6, 174, 213, 0.2);
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(6, 174, 213, 0.2);
+}
+/* .about .img{
+    width: 50%;
+    border: 1px solid #1B5299;
+} */
+
+.years{
+    width: 100%;
+    
+}
+.years .succ{
+    border: 1px solid rgba(6, 174, 213, 0.2);
+    background-color: rgba(6, 174, 213, 0.2);
+    margin: 3rem 7.9rem;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.succ .exp{
+    text-align: center;
+    margin: 0 70px;
+}
+.talk{
+    width: 100%;
+    height: 100%;
+    padding: 4rem 8rem;
+}
+.talk h1{
+    text-align: center;
+}
+.talk span{
+    color: #06AED5;
+}
+.us{
+    margin-top: 20px;
+}
+.us p{
+    text-align: justify;
+    line-height: 29px;
+}
+main{
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+}
+main .my{
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+}
+.my h1{
+    font-weight: 700;
+}
+main .serv{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+}
+.serv .des{
+    border: 1px solid #8080801A;
+    background-color: #8080801A;
+    color: #800080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 285px;
+    height: 353px;
+    /* justify-content: space-around; */
+    border-radius: 20px;
+    padding: 20px;
+}
+.des .ui{
+    margin-top: 10px;
+}
+.des h3{
+    margin:25px 0;
+    font-size: 22.4px;
+    text-align: center;
+}
+.des .lorem{
+    margin: 25px 0;
+}
+.lorem p{
+    text-align: center;
+}
+.recent-job{
+    margin-top: 30px;
+    width: 100%;
+    height: 100vh;
+}
+.recent-job .pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pro h1{
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+.pro .ips{
+    margin: 0 auto;
+    width: 800px;
+}
+.ips p{
+   text-align: center;
+}
+
+footer{
+    background-color: #06AED5;
+    height: 60px;
+    width: 100%;
+}
+footer .footer-logo{
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    width: 100px;
+    padding: 30px 0;
+}
+@media screen and (max-width:850px){
+    nav{
+        padding: 20px 60px;
+    }
+    header .about{
+        padding: 20px 50px;
+    }
+    .about .info{
+        margin: 0;
+    }
+    .follow .social a{
+        margin: 0 5px;
+    }
+    .years .succ{
+        margin: 2rem 4rem;
+        padding: 10px;
+    }
+    .talk{
+        padding: 2rem 4rem;
+    }
+    main .serv{
+        padding: 2rem 4rem;
+    }
+    .serv .des{
+        width: 200px;
+    }
+    .pro .ips{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:525px){
+    nav{
+        padding: 10px 15px;
+    }
+    .navbar ul li a{
+        margin: 0 5px;
+    }
+    header .about{
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 20px;
+
+    }
+    .about .info{
+        width: 100%;
+        margin: 0;
+    }
+    .info h1 small:nth-child(1),
+    .info h1 small:nth-child(2),
+    .info h1 small.akin{
+        font-size: 40px;
+    }
+    .info .job-title{
+        font-size: 30px;
+    }
+    main .my h1{
+        font-size: 25px;
+    }
+    main .serv{
+        flex-direction: column;
+        padding: 0 50px;
+        justify-content: space-between;
+    }
+    .serv .des{
+        margin-top: 20px;
+        width: 100%;
+        padding-top: 40px;
+    }
+    .pro .ips{
+        width: 100%;
+    }
+    .years .succ{
+        margin: 10px 15px;
+        flex-direction: column;
+    }
+    .exp{
+        width: 100%;
+        padding: 20px;
+    }
+    .talk{
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width:400px){
+    nav{
+        padding: 5px 10px;
+    }
+    header .about{
+        width: 100%;
+        padding: 5px 10px;
+    }
+    .info h1 small:nth-child(1),
+    .info h1 small:nth-child(2),
+    .info h1 small.akin{
+        font-size: 30px;
+    }
+    .info p.des{
+        width: 100%;
+    }
+    .follow .social a{
+        margin: 0 5px;
+    }
+    .recent-job{
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width:320px){
+    nav{
+        padding: 0px 20px;
+        align-items: baseline;
+        justify-content: space-between;
+        height: 190px;
+        width: 100%;
+        position: relative;
+    }
+    nav .logo{
+        margin-top: 5px;
+    }
+    nav #menu{
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        font-size: 40px;
+        color: #06AED5;
+        font-weight: 700;
+    }
+    .link{
+        height: 50px;
+        transition: 0.5s ease-in-out;
+    }
+    .link ul{
+        height: 0;
+        transition: 0.4s linear ;
+    }
+    .link ul li a{
+        display: none;
+        transition: 0.4s linear ;
+    }
+    .navbar{
+        position: absolute;
+        top: 40px;
+        padding: 5px 0px;
+    }
+    .navbar ul{
+        flex-direction: column;
+        transition: 0.4s linear ;
+        width: 100%;
+    }
+    .navbar ul li{
+        margin-top: 15px;
+        width: 0;
+        transition: 0.4s linear ;
+    }
+
+    header .about{
+        padding: 10px 20px;
+    }
+    .info h1 small:nth-child(1),
+    .info h1 small:nth-child(2),
+    .info h1 small.akin{
+        font-size: 30px;
+    }
+    .info p.des{
+        width: 100%;
+        font-size: 16px;
+    }
+    .follow span{
+        margin: 0 15px;
+    }
+    .follow .social a{
+        margin: 0 2px;
+    }
+    .years .succ{
+        margin: 10px 15px;
+        flex-direction: column;
+    }
+    .exp{
+        width: 100%;
+        padding: 20px;
+    }
+    .pro .ips{
+        width: 100%;
+    }
+    .talk{
+        padding: 10px 15px;
+    }
+    main .serv{
+        padding: 0 15px;
+    }
+
+}
+
